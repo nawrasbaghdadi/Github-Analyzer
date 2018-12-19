@@ -1,0 +1,174 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body{
+    margin: auto;
+    font-family: "apercu",sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #202121;
+    background: #f4f7f6;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+header{
+    position: fixed;
+    height: 58px;
+    line-height: 100%;
+    font-weight: 700;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+}
+header p{
+    background: url('./social-icon-github.png') left center no-repeat;
+    background-size: 30px;
+    padding-left: 40px;
+    line-height: 34px;
+}
+header em{
+    font-size: 12px;
+    font-weight: 400;
+}
+.container{
+    text-align: center;
+    padding: 100px 40px 40px;
+}
+.container p{
+    margin-bottom: 20px;
+}
+.singin{
+    color: #fff;
+    background: #444 url('./social-icon-github.jpg') left center no-repeat;
+    text-decoration: none;
+    display: inline-block;
+    padding:6px 10px 6px 40px;
+    border-radius: 4px;
+    background-size: contain;
+}
+.card{
+    margin: auto;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,0.1);
+    background: #FFFFFF;
+    padding:20px;  
+}
+.search {
+    width: 360px;
+  }
+.header{
+    padding-bottom: 20px;
+}
+.header h3{
+    text-align: left;
+    line-height: 20px;
+    font-size: 15px;
+    font-weight: bold; 
+} 
+small{
+    display: block;
+    font-size: 12px;
+    font-weight: normal; 
+} 
+strong{
+    color:#4CAF50;
+}
+  .form {
+    position: relative;
+    max-width: 360px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .form input {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f4f7f6;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+  .form button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #4CAF50;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+  }
+  .form button:hover,.form button:active,.form button:focus {
+    background: #43A047;
+  }
+  table{
+      width: 100%;
+  }
+  th, td {
+    border-top: 1px solid #dee2e6;
+    width: 50px;
+    height: 50px;
+   vertical-align: middle;
+}
+table th{
+  text-align: center;
+    color: #424242;;
+    font-size: 14px;
+    font-weight: bold;
+    border-bottom: 2px solid #dee2e6;
+}
+tr:nth-child(even){background-color: #fff}
+    
+    
