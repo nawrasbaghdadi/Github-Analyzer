@@ -1,19 +1,19 @@
 ### HOW I approach this project
-1- Read about the Github API
-2- sketch some UI https://sketchboard.me/VBmx66YSItQN#/
-3- crated the HTML and CSS
-4- Choose the Server , i used https://github.com/prose/gatekeeper ,
+1- Read about the Github API  
+2- sketch some UI https://sketchboard.me/VBmx66YSItQN#/  
+3- crated the HTML and CSS  
+4- Choose the Server , i used https://github.com/prose/gatekeeper   
 5- Start on the React / Frontend Side
 
 
 ### HOW To run the Project
-1- Extract the Zip File
-2- Cd to-the-extracted-folder
-3- run Server
-    1- cd server
-    2- node index.js
-4- cd ..
-5- cd scout24
+1- Extract the Zip File  
+2- Cd to-the-extracted-folder  
+3- run Server  
+&nbsp;&nbsp;&nbsp;&nbsp;1- cd server  
+&nbsp;&nbsp;&nbsp;&nbsp;2- node index.js  
+4- cd ..  
+5- cd scout24  
 6- npm start //localhost:3000
 
 ### Assumptions i made
